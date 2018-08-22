@@ -48,6 +48,9 @@
 	.links ul li{
 		padding-left: 16px;
 	}
+
+		/*HEADER MEDIA DISPLAYS*/
+
 /*LEARN SOMETHING CONTAINER*/
 .learnsomething{
 	height: 500px;
@@ -340,3 +343,10 @@
 .tandc a:hover{
 	color: #808080;
 	cursor: auto;
+}
+
+@media only screen and (max-width: 600px;){
+	.learnsomethingtext h1{
+		background-color: yellow;
+	}
+}
